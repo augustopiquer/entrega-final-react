@@ -1,0 +1,141 @@
+.item-list-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #222222;
+    
+}
+
+.productos-grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    color: white;
+        
+    
+    
+}
+
+.producto {
+    background-color: #222222;
+    border-radius: .5rem;
+    padding: 1rem;
+    border: solid black 1px;
+}
+
+
+
+
+.carta-producto{
+    background-color: gray;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr ;
+    min-height: 40vh;
+    gap: 2rem;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    padding: 1rem;
+
+}
+
+.carta-producto .botonfc{
+    color: white;
+    background-color: black;
+    border-radius: .5rem;
+}
+.carrito-container{
+    color: white;
+    background-color: #222222;
+}
+.producto-container{
+  
+   border: 2px solid white;
+   border-radius: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    place-items: center;
+
+}
+.btn-agregarcarrito{
+    color: white;
+    background-color: black;
+    border-radius: .5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+.btn-quitarcantidad{
+    color: white;
+    background-color: #222222;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100px;
+}
+
+.link-vm{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 1rem;
+    
+}
+.link-vm:hover{
+   color: bisque;
+}
+.c-total{
+    display: grid;
+    place-items: center;
+}
+.btn-vc{
+    color: white;
+    background-color: #222222;
+    border-radius: 2rem;
+   
+    font-weight: 800;
+}
+.btn-fc{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    padding-left: 2rem;
+}
+.formulario-completo{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    background-color: #222222;
+    padding: 2rem;
+    gap: 2rem;
+    
+}
+.form-nombre{
+    border-radius: .5rem;
+    height: 35px;
+}
+.form-email{
+    border-radius: .5rem;
+    height: 35px;
+}
+.btn-cc{
+    height: 30px;
+    border-radius: 2rem;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+}
+.ticket-compra{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    background-color: #222222;
+    color: white;
+    padding: 100px;
+
+
+}
+
+
+
+

@@ -1,0 +1,33 @@
+.espacio{
+   height: 450px;
+   background-color: #222222;
+}
+.contenedor-3{
+    background-color: #222222;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+   
+}
+.pie{        
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #222222;
+
+ }
+ .pie p{
+    font-size: 18px;
+ }
+ .pie a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+ }

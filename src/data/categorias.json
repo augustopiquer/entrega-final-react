@@ -1,0 +1,18 @@
+[
+    {
+        "id": "planas",
+        "nombre": "Planas"
+    },
+    {
+        "id": "viceras",
+        "nombre": "Viceras"
+    },
+    {
+        "id": "gorros",
+        "nombre": "Gorros"
+    },
+    {
+        "id": "camufladas",
+        "nombre": "Camufladas"
+    }
+]
