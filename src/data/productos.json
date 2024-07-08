@@ -103,7 +103,7 @@
             "id": 10,
             "nombre": "Gorra plana",
             "precio": 23.99,
-            "imagen": "./src/assets/img/gorra-plana.png",
+            "imagen": "/img/gorra-plana.png",
             "descripcion": "Gorra plana con visera ancha y ajuste trasero.",
             "categoria": {
                 "id": "planas",

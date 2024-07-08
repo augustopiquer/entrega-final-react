@@ -33,7 +33,7 @@ export const Checkout = () => {
         return (
                 
              <div className="ticket-compra"> 
-                <h1>Muchas gracias por tu compra!!!!!!!!!</h1>
+                <h1>Muchas gracias por tu compra!!!</h1>
                 <p>Para hacer el seguimiento de tu pedido, su identificador es este: {docId}</p>
             </div> 
 

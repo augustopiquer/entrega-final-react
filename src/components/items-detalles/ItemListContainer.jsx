@@ -32,11 +32,11 @@ export const ItemListContainer = ({greeting}) => {
                     if (res.docs.length > 0) {
                         setTitulo(res.docs[1].data().nombre);
                     } else {
-                        setTitulo("Gorritas baratitas");
+                        setTitulo("Las mejores gorras de Argentina (ponele)!!");
                     }
                 });
         } else {
-            setTitulo("Las mejores gorras!");
+            setTitulo("Las mejores gorras!!");
         }
     }, [categoryId]);
   
